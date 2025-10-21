@@ -77,7 +77,7 @@ const About = () => {
             </p>
 
             <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-8 leading-relaxed">
-              Passionate about solving complex technical challenges through innovative solutions. I've deployed real-time systems handling 1M+ monthly transactions and led teams to deliver hackathon-winning AI/ML solutions. When not coding, you can find me solving DSA problems on LeetCode or contributing to open-source projects.
+              Passionate about solving complex technical challenges through innovative solutions. I&apos;ve deployed real-time systems handling 1M+ monthly transactions and led teams to deliver hackathon-winning AI/ML solutions. When not coding, you can find me solving DSA problems on LeetCode or contributing to open-source projects.
             </p>
 
             {/* Timeline */}
