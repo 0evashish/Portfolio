@@ -1,0 +1,49 @@
+# Portfolio Website Development Rules
+
+## Project Overview
+This is a personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+
+## Tech Stack
+- Next.js 14 with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Framer Motion for animations
+- React Icons for iconography
+- EmailJS for contact form
+- MDX for blog posts (optional)
+
+## Code Style Guidelines
+1. Use functional components with TypeScript
+2. Prefer server components unless client interactivity is needed
+3. Use Tailwind classes for styling, avoid inline styles
+4. Keep components small and focused
+5. Use semantic HTML elements
+6. Ensure all interactive elements are keyboard accessible
+
+## File Structure
+- /app - App router pages and layouts
+- /components - Reusable components
+- /public - Static assets
+- /lib - Utility functions and constants
+- /types - TypeScript type definitions
+
+## Component Guidelines
+- Use 'use client' directive only when necessary
+- Implement responsive design mobile-first
+- Add proper TypeScript types for all props
+- Include aria-labels for accessibility
+- Use Next.js Image component for all images
+- Implement loading states for async operations
+
+## Performance Requirements
+- Maintain Lighthouse score above 95
+- Optimize all images with next/image
+- Use dynamic imports for heavy components
+- Implement proper meta tags for SEO
+
+## Git Commit Convention
+- feat: New feature
+- fix: Bug fix
+- style: Styling changes
+- refactor: Code restructuring
+- docs: Documentation updates
