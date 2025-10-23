@@ -56,11 +56,12 @@ const About = () => {
             <div className="relative w-full aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-blue-400 to-purple-600 p-8">
               <div className="absolute inset-0 bg-neutral-200 dark:bg-neutral-800 opacity-20"></div>
               <Image
-                src="https://via.placeholder.com/400x400?text=Profile"
-                alt="John Doe"
+                src="/images/profile/me.jpg"
+                alt="Devashish Badaria"
                 width={400}
                 height={400}
                 className="w-full h-full object-cover rounded-lg"
+                priority
               />
             </div>
           </motion.div>

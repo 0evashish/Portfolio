@@ -103,7 +103,7 @@ const Hero = () => {
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
       >
         <div className="flex flex-col items-center gap-2 text-neutral-600 dark:text-neutral-400">
-          <p className="text-sm">Scroll to explore</p>
+          {/* <p className="text-sm">Scroll to explore</p> */}
           <svg
             className="w-5 h-5"
             fill="none"

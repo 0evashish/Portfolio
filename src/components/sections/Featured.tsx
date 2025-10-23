@@ -13,7 +13,7 @@ const Featured = () => {
       description:
         "Real-time vehicle tracking and license plate recognition system deployed at MNIT main gate. Achieved 98% detection accuracy in live environment, processing over 1,000 vehicles daily.",
       tech: ["Python", "YOLOv8", "OpenCV", "PyTorch", "Flask"],
-      image: "https://via.placeholder.com/600x400?text=ALPR+System",
+      image: "/images/projects/ALPR.png",
       link: "https://github.com/0evashish/ALPR-System",
       github: "https://github.com/0evashish/ALPR-System",
     },
@@ -23,7 +23,7 @@ const Featured = () => {
       description:
         "Full-stack, responsive e-commerce platform with secure authentication, cart management, and payment processing. Engineered to support 100+ concurrent users with 99.5% uptime.",
       tech: ["React", "Node.js", "MongoDB", "Express", "Stripe API"],
-      image: "https://via.placeholder.com/600x400?text=E-Commerce",
+      image: "/images/projects/Ecommerce.png",
       link: "https://atrivate-devashish.vercel.app/",
       github: "https://github.com/0evashish/Shop-client",
     },
@@ -33,7 +33,7 @@ const Featured = () => {
       description:
         "Command-line tool for batch image processing including resizing, format conversion, and bulk manipulation. Reduced processing time by 80% compared to manual workflows.",
       tech: ["Node.js", "JavaScript", "Sharp"],
-      image: "https://via.placeholder.com/600x400?text=Image+Processing",
+      image: "/images/projects/ImageProc.png",
       link: "https://github.com/0evashish/Automated-Pixelisation-and-Image-Manipulation",
       github: "https://github.com/0evashish/Automated-Pixelisation-and-Image-Manipulation",
     },
